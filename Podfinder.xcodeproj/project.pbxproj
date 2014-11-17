@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA2F3831A1A5042009294CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2F3821A1A5042009294CD /* AppDelegate.m */; };
+		2AA2F3851A1A5042009294CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2F3841A1A5042009294CD /* main.m */; };
+		2AA2F3871A1A5042009294CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2F3861A1A5042009294CD /* Images.xcassets */; };
+		2AA2F38A1A1A5042009294CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2F3881A1A5042009294CD /* MainMenu.xib */; };
+		2AA2F3961A1A5042009294CD /* PodfinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2F3951A1A5042009294CD /* PodfinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AA2F3901A1A5042009294CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AA2F3741A1A5042009294CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA2F37B1A1A5042009294CD;
+			remoteInfo = Podfinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AA2F37C1A1A5042009294CD /* Podfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA2F3801A1A5042009294CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA2F3811A1A5042009294CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AA2F3821A1A5042009294CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AA2F3841A1A5042009294CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AA2F3861A1A5042009294CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AA2F3891A1A5042009294CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2AA2F38F1A1A5042009294CD /* PodfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodfinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA2F3941A1A5042009294CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA2F3951A1A5042009294CD /* PodfinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodfinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA2F3791A1A5042009294CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA2F38C1A1A5042009294CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA2F3731A1A5042009294CD = {
+			isa = PBXGroup;
+			children = (
+				2AA2F37E1A1A5042009294CD /* Podfinder */,
+				2AA2F3921A1A5042009294CD /* PodfinderTests */,
+				2AA2F37D1A1A5042009294CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AA2F37D1A1A5042009294CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA2F37C1A1A5042009294CD /* Podfinder.app */,
+				2AA2F38F1A1A5042009294CD /* PodfinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AA2F37E1A1A5042009294CD /* Podfinder */ = {
+			isa = PBXGroup;
+			children = (
+				2AA2F3811A1A5042009294CD /* AppDelegate.h */,
+				2AA2F3821A1A5042009294CD /* AppDelegate.m */,
+				2AA2F3861A1A5042009294CD /* Images.xcassets */,
+				2AA2F3881A1A5042009294CD /* MainMenu.xib */,
+				2AA2F37F1A1A5042009294CD /* Supporting Files */,
+			);
+			path = Podfinder;
+			sourceTree = "<group>";
+		};
+		2AA2F37F1A1A5042009294CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA2F3801A1A5042009294CD /* Info.plist */,
+				2AA2F3841A1A5042009294CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AA2F3921A1A5042009294CD /* PodfinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA2F3951A1A5042009294CD /* PodfinderTests.m */,
+				2AA2F3931A1A5042009294CD /* Supporting Files */,
+			);
+			path = PodfinderTests;
+			sourceTree = "<group>";
+		};
+		2AA2F3931A1A5042009294CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA2F3941A1A5042009294CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA2F37B1A1A5042009294CD /* Podfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA2F3991A1A5042009294CD /* Build configuration list for PBXNativeTarget "Podfinder" */;
+			buildPhases = (
+				2AA2F3781A1A5042009294CD /* Sources */,
+				2AA2F3791A1A5042009294CD /* Frameworks */,
+				2AA2F37A1A1A5042009294CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Podfinder;
+			productName = Podfinder;
+			productReference = 2AA2F37C1A1A5042009294CD /* Podfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AA2F38E1A1A5042009294CD /* PodfinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA2F39C1A1A5042009294CD /* Build configuration list for PBXNativeTarget "PodfinderTests" */;
+			buildPhases = (
+				2AA2F38B1A1A5042009294CD /* Sources */,
+				2AA2F38C1A1A5042009294CD /* Frameworks */,
+				2AA2F38D1A1A5042009294CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AA2F3911A1A5042009294CD /* PBXTargetDependency */,
+			);
+			name = PodfinderTests;
+			productName = PodfinderTests;
+			productReference = 2AA2F38F1A1A5042009294CD /* PodfinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AA2F3741A1A5042009294CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Andrey M";
+				TargetAttributes = {
+					2AA2F37B1A1A5042009294CD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2AA2F38E1A1A5042009294CD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2AA2F37B1A1A5042009294CD;
+					};
+				};
+			};
+			buildConfigurationList = 2AA2F3771A1A5042009294CD /* Build configuration list for PBXProject "Podfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AA2F3731A1A5042009294CD;
+			productRefGroup = 2AA2F37D1A1A5042009294CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA2F37B1A1A5042009294CD /* Podfinder */,
+				2AA2F38E1A1A5042009294CD /* PodfinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AA2F37A1A1A5042009294CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA2F3871A1A5042009294CD /* Images.xcassets in Resources */,
+				2AA2F38A1A1A5042009294CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA2F38D1A1A5042009294CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA2F3781A1A5042009294CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA2F3851A1A5042009294CD /* main.m in Sources */,
+				2AA2F3831A1A5042009294CD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA2F38B1A1A5042009294CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA2F3961A1A5042009294CD /* PodfinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AA2F3911A1A5042009294CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AA2F37B1A1A5042009294CD /* Podfinder */;
+			targetProxy = 2AA2F3901A1A5042009294CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AA2F3881A1A5042009294CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA2F3891A1A5042009294CD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AA2F3971A1A5042009294CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2AA2F3981A1A5042009294CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2AA2F39A1A1A5042009294CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Podfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AA2F39B1A1A5042009294CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Podfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AA2F39D1A1A5042009294CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PodfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podfinder.app/Contents/MacOS/Podfinder";
+			};
+			name = Debug;
+		};
+		2AA2F39E1A1A5042009294CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PodfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podfinder.app/Contents/MacOS/Podfinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AA2F3771A1A5042009294CD /* Build configuration list for PBXProject "Podfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA2F3971A1A5042009294CD /* Debug */,
+				2AA2F3981A1A5042009294CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA2F3991A1A5042009294CD /* Build configuration list for PBXNativeTarget "Podfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA2F39A1A1A5042009294CD /* Debug */,
+				2AA2F39B1A1A5042009294CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AA2F39C1A1A5042009294CD /* Build configuration list for PBXNativeTarget "PodfinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA2F39D1A1A5042009294CD /* Debug */,
+				2AA2F39E1A1A5042009294CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AA2F3741A1A5042009294CD /* Project object */;
+}
