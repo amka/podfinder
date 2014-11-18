@@ -708,8 +708,8 @@
                                                     <rect key="frame" x="1" y="1" width="391" height="42"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
-                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o8c-Pf-44m">
-                                                            <rect key="frame" x="1" y="3" width="314" height="17"/>
+                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="o8c-Pf-44m">
+                                                            <rect key="frame" x="1" y="3" width="301" height="17"/>
                                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="9Ax-dd-nAC">
                                                                 <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
@@ -719,8 +719,8 @@
                                                                 <binding destination="Ghh-Ti-Jer" name="value" keyPath="objectValue.summary" id="Wbj-Xp-Cgg"/>
                                                             </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6tY-Cj-yPa">
-                                                            <rect key="frame" x="1" y="22" width="314" height="17"/>
+                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="6tY-Cj-yPa">
+                                                            <rect key="frame" x="1" y="22" width="301" height="17"/>
                                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="ncd-2f-FNb">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -730,9 +730,9 @@
                                                                 <binding destination="Ghh-Ti-Jer" name="value" keyPath="objectValue.id" id="Fl6-zX-Rgq"/>
                                                             </connections>
                                                         </textField>
-                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byq-Tb-Hxn">
-                                                            <rect key="frame" x="333" y="22" width="55" height="17"/>
-                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="Trw-6H-VI8">
+                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="byq-Tb-Hxn">
+                                                            <rect key="frame" x="306" y="22" width="82" height="17"/>
+                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Label" id="Trw-6H-VI8">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -742,6 +742,18 @@
                                                             </connections>
                                                         </textField>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="o8c-Pf-44m" firstAttribute="top" secondItem="6tY-Cj-yPa" secondAttribute="bottom" constant="2" id="3YJ-q8-1Hp"/>
+                                                        <constraint firstAttribute="bottom" secondItem="byq-Tb-Hxn" secondAttribute="bottom" constant="22" id="3q2-oT-XCk"/>
+                                                        <constraint firstItem="o8c-Pf-44m" firstAttribute="leading" secondItem="6tY-Cj-yPa" secondAttribute="leading" id="Jba-VW-UHU"/>
+                                                        <constraint firstAttribute="trailing" secondItem="byq-Tb-Hxn" secondAttribute="trailing" constant="5" id="Ka0-qZ-S9x"/>
+                                                        <constraint firstItem="byq-Tb-Hxn" firstAttribute="leading" secondItem="6tY-Cj-yPa" secondAttribute="trailing" constant="8" symbolic="YES" id="Wbv-Aq-V8H"/>
+                                                        <constraint firstAttribute="trailing" secondItem="o8c-Pf-44m" secondAttribute="trailing" constant="91" id="flf-uv-uiT"/>
+                                                        <constraint firstItem="6tY-Cj-yPa" firstAttribute="leading" secondItem="Ghh-Ti-Jer" secondAttribute="leading" constant="3" id="jZp-ut-Geh"/>
+                                                        <constraint firstItem="6tY-Cj-yPa" firstAttribute="trailing" secondItem="o8c-Pf-44m" secondAttribute="trailing" id="muU-yC-foz"/>
+                                                        <constraint firstAttribute="bottom" secondItem="o8c-Pf-44m" secondAttribute="bottom" constant="3" id="oEV-KA-3yt"/>
+                                                        <constraint firstItem="byq-Tb-Hxn" firstAttribute="baseline" secondItem="6tY-Cj-yPa" secondAttribute="baseline" id="sU8-dp-ug1"/>
+                                                    </constraints>
                                                     <connections>
                                                         <outlet property="textField" destination="o8c-Pf-44m" id="tsp-D8-czz"/>
                                                     </connections>
